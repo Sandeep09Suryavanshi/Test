@@ -1,0 +1,1012 @@
+/* media css */
+@media (max-width:1199px){	
+.navbar-default .navbar-toggle{
+	background:none;
+	border: 0;
+	margin-top:27px;
+	margin-bottom:27px;
+}
+#header #topbar .navbar-right {
+    padding-right: 0px;
+}
+.navbar-right .dropdown-menu{ width: 100%;}
+#header #topbar .navbar-default .navbar-nav > .active > a{
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-bottom: 0;
+  color: #ee6c7a;
+}
+#header #topbar .navbar-default .navbar-nav > .active > a:hover, #header #topbar .navbar-default .navbar-nav > .active > a:focus {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-bottom: 0;
+  color: #fff !important; font-weight: 600;
+}
+#header #topbar .navbar-nav > li{
+	background: none !important;
+	padding:0 !important;
+	border: 0 !important
+}
+.navbar {
+  position: absolute;
+}
+#header #topbar .navbar-default {
+  opacity: 1;
+}
+
+.navbar-default .navbar-toggle{
+	border:none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background:none;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:#ee6c7a;
+}
+.navbar-toggle .icon-bar {
+  height: 3px;
+  width: 28px;
+}
+#header #topbar .navbar-nav  li a, #header #topbar .navbar-nav > li .login {
+	 font-size: 15px;
+  padding: 10px 0px 10px 10px !important;
+  border:none;
+  border-radius: 0;
+  margin: 0  !important;
+  text-align: left;
+  color: #333333 !important;
+  font-weight: 300;
+}
+#header #topbar .navbar-nav > li > a:hover, #header #topbar .navbar-nav > li > a.login:hover{
+	border:none !important;
+	background:#91d5f5 !important;
+	color: #fff !important
+}
+#header #topbar .navbar-default {
+/*  box-shadow: 0 5px 25px 4px #ebecec;*/
+  background:#ffffff;
+}
+	.navbar-header {
+    float: none;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+    display: none !important;
+}
+.navbar-collapse.collapse.in {
+    display: block !important;
+}
+.navbar-nav {
+    float: none !important;
+    margin: 7.5px 0px;
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+	
+#header #topbar .navbar-brand > img {
+  display: block;
+  width: 250px;
+}
+#header #topbar .navbar-nav > li {
+  border: medium none;
+  padding: 0 10px;
+}
+
+#header #topbar .navbar-nav > li .login {
+  margin: 21px 0 0;
+  padding: 10px 28px;
+}
+#header #topbar .navbar-nav > li {
+  border: medium none;
+  padding: 0 8px;
+}
+.gap_left {
+  padding-right: 20px !important;
+}
+.gap_right {
+  padding-left: 20px !important;
+}
+.banner_text {
+  padding: 110px 0 100px 34px;
+}
+.banner_text h1 {
+  font-size: 50px;
+  padding: 10px 0 18px;
+}
+.banner_text a {
+  margin: 22px 0 0;
+  padding: 10px 18px;
+}
+.srch {
+  width: 898px;
+}
+.srch .form-inline .form-control {
+  font-size: 17px;
+  height: 50px;
+  padding: 0 0 0 65px;
+  width: 320px;
+}
+.srch .btn.btn-default {
+  font-size: 17px;
+  height: 50px;
+  padding: 0 50px;
+}
+.app{
+	padding:40px 0px 40px;
+}
+.app .iphone img {
+  width: 340px;
+}
+.app .iphone_text h1{
+	font-size:34px;
+}
+.app .iphone_text h1 span{
+	font-size:24px;
+}
+.app .iphone_text p{
+	padding: 26px 0 36px;
+	font-size:15px;
+	line-height:28px;
+}
+.app .iphone_text h2{
+	font-size:18px;
+}
+.midbar .docter .docter_text h1{
+	font-size:34px;
+}
+.midbar .docter .docter_text p {
+  font-size: 15px;
+  line-height: 26px;
+  padding: 22px 0px 22px;
+}
+.presence_bar {
+  padding: 50px 0 60px;
+}
+.presence_bar .presence h1{
+	font-size:34px;
+}
+.presence_bar .presence .loaction h2{
+	font-size:18px;
+}
+.presence_bar .presence .loaction ul li a{
+	font-size:15px;
+	line-height:28px;
+}
+#footer_topbar .newsletter h1{
+	font-size:34px;
+	padding:3px 0px;
+}
+#footer_topbar .news .form-inline .form-control{
+	width:228px;
+	margin-right: 15px;
+	height: 48px;
+    padding: 14px 16px;
+}
+.large {
+  width: 260px !important;
+}
+#footer_midbar{
+	padding:36px 0px;
+}
+#footer_topbar .news .btn.btn-default{
+  font-size: 17px;
+  height: 48px;
+  padding: 0 36px;
+}
+#footer_midbar .contact_detail .down{
+	width:330px;
+    padding: 0 25px 0 0;
+}
+#footer_midbar .contact_detail .footmenu ul li a{
+	line-height:36px;
+}
+#footer_midbar .contact_detail .footmenu ul{
+	width:158px;
+}
+.fa.fa-angle-left,.fa.fa-angle-right{
+	border-radius:75px;
+	height:50px;
+	width:50px;
+	font-size:45px;
+}
+.redbar{
+	padding:24px 0px;
+}
+.redbar h1{
+	font-size:20px;
+}
+.checklist ul li {
+  display: inline-block;
+  padding-right: 15px;
+}
+#header {
+/*    margin-bottom: 98px;*/
+   margin-bottom: 89px; 
+}
+    
+/* tab css */    
+.tab-content-main{ max-width: 90%;}   
+.nav-tab-header { width: 100%;}   
+    
+}
+
+/* media css */
+@media (max-width:1040px){
+	.slider .carousel-control span.Previous, .slider .carousel-control span.next{ display: none}
+	.app .iphone_text .slider .carousel-control.left {  right: 60px;}
+	.docter_text .slider .carousel-control {  width: auto;}
+}
+
+/* media css */
+@media (max-width:991px){
+#header #topbar .navbar-brand > img {
+  width: 200px;
+}
+.navbar-header .navbar-brand {
+    padding: 22px 15px;
+}    
+#header #topbar .navbar-nav > li > a {
+  font-size: 14px;
+}
+#header #topbar .navbar-nav > li .login {
+  margin: 16px 0 0;
+  padding: 8px 25px;
+}
+.gap_left {
+  padding-right: 15px !important;
+}
+.gap_right {
+  padding-left: 15px !important;
+}
+#slider .carousel-control {
+  width: 7%;
+}
+.banner_text {
+  padding: 70px 0 60px 34px;
+}
+.banner_text h3 {
+  font-size: 20px;
+}
+.banner_text h1 {
+  font-size: 40px;
+  padding: 10px 0 15px;
+}
+.banner_text p {
+  font-size: 14px;
+  line-height: 22px;;
+}
+#slider .left.carousel-control {
+  margin-left: -1%;
+}
+#slider .right.carousel-control {
+  margin-right: 1%;
+}
+.glyphicon.glyphicon-chevron-left > img {
+  width: 40px;
+}
+.glyphicon.glyphicon-chevron-right > img{
+	  width: 40px;
+}
+#bottombar {
+  padding: 15px 0;
+}
+.srch {
+  width: 750px;
+}
+.srch .form-inline .form-control{
+  font-size: 16px;
+  height: 45px;
+  padding: 0 0 0 45px;
+  width: 255px;
+  margin:0px;
+  background-position:left 35px center;
+}
+.fa.fa-stethoscope {
+  font-size: 22px;
+}
+.fa.fa-map-marker {
+  font-size: 22px;
+}
+.srch {
+  width: 722px;
+}
+.srch span {
+  left: 28px;
+}
+.srch .btn.btn-default {
+  font-size: 16px;
+  height: 45px;
+  padding: 0 45px;
+   margin: 0 0 0 12px;
+}
+.app {
+  padding: 25px 0;
+}
+.app .iphone img {
+  width: 280px;
+}
+.app .iphone_text{
+	padding:70px 0px 0px;
+}
+.app .iphone_text h1 {
+  font-size: 30px;
+}
+.app .iphone_text h1 span {
+  font-size: 22px;
+  padding: 5px 0 0;
+}
+.app .iphone_text p {
+  font-size: 14px;
+  line-height: 26px;
+  padding: 16px 0 28px;
+}
+.app .iphone_text h2 {
+  font-size: 17px;
+}
+.app .iphone_text ul li {
+  padding: 0 16px 0 0;
+}
+.app .iphone_text ul li img {
+  width: 110px;
+}
+.midbar .docter .docter_text h1 {
+  font-size: 30px;
+}
+.midbar .docter .docter_text p {
+  font-size: 13px;
+  line-height: 24px;
+  padding: 15px 0px 20px;
+}
+.midbar .docter .docter_text a {
+  font-size: 13px;
+  padding: 8px 24px;
+}
+.midbar .docter .docter_view{
+	margin-top:12%;
+}
+.midbar {
+  padding: 50px 0 55px;
+}
+.presence_bar {
+  padding: 35px 0 45px;
+}
+.presence_bar .presence h1 {
+  font-size: 30px;
+  padding: 0 0 30px;
+}
+.presence_bar .presence .loaction h2 {
+  font-size: 16px;
+  padding: 0 0 14px;
+}
+.presence_bar .presence .loaction ul li a {
+  font-size: 13px;
+  line-height: 25px;
+}
+#footer_topbar .newsletter{
+	text-align:center;
+}
+#footer_topbar .newsletter h1{
+	padding:0px 0px 25px;
+}
+#footer_topbar .news .form-inline .form-control{
+  width: 240px;
+}
+.large {
+  width: 280px !important;
+}
+#footer_topbar{
+	padding:20px 0px 28px;
+}
+#footer_midbar .contact_detail .footmenu ul {
+  width: 100% !important;
+}
+#footer_midbar .contact_detail .down{
+	padding:0px;
+	width:100%;
+}
+#footer_midbar .contact_detail .down .download ul li img {
+  width: 100px;
+}
+#footer_midbar .contact_detail .down .download ul li {
+  padding: 0 6px 0px 0px;
+}
+#footer_midbar .contact_detail .down .social {
+  padding: 20px 0 0;
+}
+#footer_midbar .contact_detail .down .social ul li {
+  padding: 0 5px 0 0;
+}
+.hv_effect{
+	padding: 0 5px 0 0;
+}
+#footer_midbar .contact_detail .footmenu ul li a {
+  line-height: 30px;
+}
+#footer_midbar {
+  padding: 28px 0;
+}
+.hv_down{
+padding: 0 6px 0 0;	
+}
+.hv_iphone{
+padding: 0 16px 0 0;	
+}
+.fa.fa-angle-left,.fa.fa-angle-right{
+	border-radius:75px;
+	height:45px;
+	width:45px;
+	font-size:40px;
+	padding:0px;
+}
+.redbar{
+	padding:22px 0px;
+}
+.redbar h1{
+	font-size:20px;
+}
+.checklist ul li {
+  padding-right: 5px;
+}
+.custom-checkbox > [type="checkbox"]:not(:checked) + label, .custom-checkbox > [type="checkbox"]:checked + label {
+  font-size: 13px;
+  padding: 0 0 3px 20px;
+}
+.checklist p{
+	font-size:12px;
+}
+.practise_form .bootstrap-select > .dropdown-toggle{
+	font-size:15px;
+}
+    
+.aside-dashboard {
+    padding-right: 15px; padding-left: 15px;
+}    
+.sidebar a:hover, .sidebar a:active, .sidebar a:focus, .sidebar a.active {
+    box-shadow: 0px -55px 0 #e36774 inset; -moz-box-shadow: 0px -55px 0 #e36774 inset; -webkit-box-shadow: 0px -55px 0 #e36774 inset; -ms-box-shadow: 0px -55px 0 #e36774 inset;
+}
+ .right-col-dashboard {
+    box-shadow: 1px 0 6px rgba(200, 200, 200, 0.5) inset; -moz-box-shadow: 1px 0 6px rgba(200, 200, 200, 0.5) inset; -webkit-box-shadow: 1px 0 6px rgba(200, 200, 200, 0.5) inset; -ms-box-shadow: 1px 0 6px rgba(200, 200, 200, 0.5) inset;
+min-height: inherit;
+} 
+#header {
+    margin-bottom: 90px;
+}    
+}
+
+/* media css */
+@media (max-width:767px){
+.navbar-header .navbar-brand {
+    padding: 21px 15px;
+}    
+.iphone_text .banner_text {
+  text-align: left;
+}
+.docter_text .slider a.carousel-control {
+  padding: 0;
+}
+	.appoinment{ margin: 18px 0 0}
+#topbar{
+	z-index:999;
+}
+
+.banner{
+	position:relative;
+}
+.banner_text {
+  padding: 100px 0 110px;
+  text-align: center;
+}
+.banner_text p {
+  font-size: 14px;
+  line-height: 22px;
+  width:100%;
+  padding:0px 50px;
+}
+.banner_text a {
+  display: inline-block;
+  float: none;
+  margin: 22px 0 0;
+  padding: 10px 18px;
+  text-align: center;
+}
+#slider .left.carousel-control {
+  margin-left: 1%;
+}
+.srch {
+  width: 360px;
+  text-align:center;
+}
+.srch .form-inline .form-control {
+  background-position: left 42px center;
+  font-size: 17px;
+  height: 48px;
+  margin: 0;
+  padding: 0 0 0 55px;
+  width: 328px;
+}
+.srch span {
+  left: 30px;
+   top: 12px;
+}
+.fa.fa-stethoscope {
+  font-size: 24px;
+}
+.fa.fa-map-marker {
+  font-size: 24px;
+}
+.srch .btn.btn-default {
+ float:none;
+ margin:0 auto;
+  display:block;
+  font-size: 16px;
+  height: 45px;
+  padding: 0 45px;
+  margin: 0 auto !important;
+}
+.#bottombar {
+  padding: 15px 0;
+  position: relative;
+  top:0px;
+}
+.app {
+  padding: 0px 0px 30px;
+}
+.app .iphone{
+	text-align:center;
+}
+.app .iphone img{
+	float:none;
+	text-align:center;
+}
+.app .iphone_text {
+  padding: 22px 0 0;
+}
+.app .iphone_text{
+	text-align:center;
+}
+.app .iphone_text h1 span {
+  float: left;
+  padding: 10px 0 0;
+  text-align: center;
+  width: 100%;
+}
+.app .iphone_text p {
+  font-size: 14px;
+  padding: 16px 0 22px;
+}
+.app .iphone_text h2{
+	float:none;
+}
+.midbar {
+  padding: 35px 0 45px;
+}
+.midbar .docter .docter_text{
+	text-align:center;
+	padding:0px 0px 40px;
+}
+.midbar .docter .docter_text h1{
+	text-align:center;
+	float:none;
+}
+.midbar .docter .docter_text a {
+   display: inline-block;
+    float: none;
+	width: auto
+}
+.midbar .docter .docter_text p {
+  font-size: 14px;
+  line-height: 26px;
+  padding: 15px 0 30px;
+  max-width:100%;
+}
+.midbar .docter .docter_view {
+  float: none;
+  margin: 0 auto;
+  width: 430px;
+}
+.presence_bar .presence h1 {
+  font-size: 30px;
+  padding: 0 0 0px;
+}
+.hv_iphone{
+ padding: 0 16px 0 0;	
+}
+.presence_bar .presence .loaction{
+	padding:30px 0px 0px 60px;
+}
+#footer_topbar .newsletter h1 {
+  font-size: 30px;
+}
+#footer_topbar .news .btn.btn-default{
+  font-size: 16px;
+  height: 48px;
+  padding: 0 34px;
+}
+#footer_topbar .news .form-inline .form-group {
+  margin: 0 auto;
+  width: 315px;
+  padding-bottom: 20px;
+}
+#footer_topbar .news .form-inline .form-control{
+  width: 315px !important;
+}
+#footer_topbar .news .btn.btn-default{
+  margin: 0 auto;
+  display: block;
+}
+#footer_midbar .contact_detail .footmenu{
+	padding:0px;
+}
+#footer_midbar .contact_detail .down .download ul li {
+  padding: 0 10px 0 0;
+}
+#footer_midbar .contact_detail .down .download ul li img {
+  width: auto;
+}
+#footer_midbar .contact_detail .down .social ul li {
+  padding: 0 10px 0 0;
+}
+.hv_effect {
+  padding: 0 10px 0 0;
+}
+.hv_down {
+  padding: 0 10px 0 0;
+}
+.redbar{
+/*	margin-top:76px;*/
+	padding:18px 0px;
+}
+.redbar h1{
+	font-size:22px;
+}
+.practise_form .form-group {
+  margin-bottom: 20px;
+}
+.login_page {
+  max-width: 100%;
+}
+.social_media {
+	float:none;
+  text-align: center;
+}
+.practise_form{
+	float:none;
+	 padding: 40px 0 60px
+}
+.practise_form .btn-default{
+  font-size: 15px;
+    padding: 12px 30px;	
+}
+.checklist ul li {
+  padding-right: 15px;
+}
+.custom-checkbox > [type="checkbox"]:not(:checked) + label, .custom-checkbox > [type="checkbox"]:checked + label {
+  font-size: 13px;
+  padding: 0 0 3px 30px;
+}
+.checklist p{
+	font-size:14px;
+}
+.contact_us{
+	padding:0px 0px 0px 15px;
+}
+.follow_us{
+	padding:0px 0px 30px 15px;
+}
+.map iframe {
+  height: 300px;
+}
+.practise_form .gtset{
+ font-size: 15px;
+    padding: 12px 30px;	
+}
+.carousel .btn {
+  display: block;
+  float: none;
+  margin: 8px auto;
+}
+.or_opt {
+  margin-bottom: 20px;
+}
+.xs-margin-top-15{ margin-top: 15px;}
+
+/* tab css */    
+.tab-content-main{ max-width: 90%;}   
+  
+}
+
+/* media css */
+@media (max-width:640px){
+ .nav-tab-header li a{ font-size: 14px;}
+ .tab-content-main { max-width: 100%;}    
+ .detail-left-col {
+     width: 100%;
+     padding-right: 0px;
+     padding-bottom: 20px;
+    }
+ .detail-right-col {
+        border-left: none;
+        border-top: 1px solid #d6d6d6;
+        float: left;
+        padding-left: 0px;
+        padding-top: 20px;
+        width: 100%;
+    }    
+    .desc-block {
+    display: inline-block;
+    padding-top: 10px;
+    width: 100%;
+   }
+}
+
+/* media css */
+@media (max-width:599px){
+#footer_midbar .contact_detail .address {
+  width: 100%;
+}
+#footer_midbar .contact_detail .footmenu {
+  margin: 20px 0px;
+  width: 100%;
+}
+.practise_form {
+  padding: 30px 0 60px;
+}
+.redbar h1{
+	text-align:center;
+}
+.practise_form .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  margin-bottom: 15px;
+}
+.practise_form .form-group {
+  margin-bottom: 15px;
+}
+.practise_form .btn-default {
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 10px 35px;
+}
+.practise_form label {
+  font-size: 14px;
+}
+.social_media ul li {
+  padding: 0px 3px !important;
+}
+.practise_form .btn-default {
+  display: block;
+}
+.info{
+	float:left;
+}
+.map iframe {
+  height: 250px;
+}
+.practise_form .gtset{
+ border-radius: 6px;
+  font-size: 16px;
+  padding: 10px 35px;
+}
+.or_opt {
+  margin-bottom: 15px;
+}
+    
+/* media css */
+ .nav-tab-header li{ width: 100%;}
+ .nav-tab-header li a {font-size: 16px; font-weight: 600;}    
+ .nav-tab-header li.active a:after{content:none;}   
+}
+
+/* media css */
+@media (max-width:479px){
+	.app .iphone_text .slider .carousel-control.left {  right: 80px;}
+	.app .iphone_text .slider .carousel-control {  right: 20px;}
+.banner{
+	background-position:center center;
+}
+.navbar-brand{
+	padding:10px 0px 0px 15px;
+}
+#header #topbar .navbar-brand > img {
+  width: 160px;
+}	
+.navbar-toggle {
+  margin-bottom: 11px;
+  margin-top: 13px;
+}
+.banner_text {
+  padding: 100px 0 55px;
+}
+.banner_text h3 {
+  font-size: 15px;
+}
+.banner_text h1 {
+  font-size: 28px;
+  padding: 8px 0 10px;
+}
+.banner_text p {
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0 0px;
+  width: 100%;
+}
+#slider .carousel-control{
+	bottom:-165px;
+}	
+#slider .left.carousel-control {
+  margin-left: 4%;
+}
+#slider .right.carousel-control {
+  margin-right: 4%;
+}
+.glyphicon.glyphicon-chevron-left > img {
+  width: 35px;
+}
+.glyphicon.glyphicon-chevron-right > img{
+	  width: 35px;
+}
+.srch {
+  text-align: center;
+  width: 280px;
+}
+.srch .form-inline .form-control {
+  background-position: left 42px center;
+  font-size: 16px;
+  height: 45px;
+  margin: 0;
+  padding: 0 0 0 55px;
+  width: 280px;
+}
+.srch span {
+  left: 12px;
+  top: 35px;
+}
+.form-group {
+  margin-bottom: 0;
+}
+.srch .btn.btn-default {
+	display:inline;
+  margin-top:20px!important;
+  height: 45px;
+}
+#bottombar{
+	position: relative;
+    top: 0px;
+	padding:0px 0px 20px 0px;
+}
+.app {
+  padding: 15px 0 30px;
+}
+.app .iphone img {
+  width: 160px;
+}
+.app .iphone_text h1 {
+  font-size: 22px;
+}
+.app .iphone_text h1 span {
+  font-size: 20px;
+  padding: 5px 0 0;
+}
+.app .iphone_text p {
+  font-size: 13px;
+  line-height:24px;
+  padding: 16px 0 22px;
+}
+.app .iphone_text h2 {
+  font-size: 16px;
+}
+.midbar .docter .docter_text h1 {
+  font-size: 22px;
+}
+.midbar .docter .docter_text p {
+  font-size: 13px;
+  line-height: 24px;
+  padding: 15px 0 30px;
+}
+.midbar .docter .docter_view {
+  width: 280px;
+}
+.presence_bar .presence h1 {
+  font-size: 22px;
+}
+.presence_bar .presence .loaction h2 {
+  font-size: 15px;
+  padding: 0 0 14px;
+}
+.presence_bar .presence .loaction ul li a {
+  font-size: 12px;
+  line-height: 25px;
+}
+.presence_bar {
+  padding: 30px 0 40px;
+}
+.presence_bar .presence .loaction {
+  padding: 20px 0 0 10px;
+}
+#footer_topbar .news .form-inline .form-group {
+  width: 280px;
+  padding-bottom: 20px;
+}
+#footer_topbar .news .form-inline .form-control{
+  width: 280px !important;
+}
+#footer_midbar .contact_detail .down .download ul li img {
+  width: 110px;
+}
+.redbar {
+/*  margin-top: 60px;*/
+ margin-top: 0px;    
+  padding: 12px 0;
+}
+.redbar h1 {
+  font-size: 20px;
+}
+.greybar {
+  padding: 8px 0;
+}
+.greybar ul li{
+	background-image:none;
+	padding:0px 5px;
+}
+.greybar ul li a{
+	font-size:12px;
+}
+.greybar h3 {
+  font-size: 12px;
+}
+.practise_form {
+  padding: 30px 0 50px;
+}
+.social_media ul li {
+  padding: 10px 0 !important;
+}
+.practise_form .btn-default {
+  font-size: 15px;
+  padding: 8px 27px;
+}
+.map iframe {
+  height: 200px;
+}
+.practise_form .gtset{
+ font-size: 15px;
+  padding: 8px 27px;
+}
+.carousel .modal-title {
+  font-size: 15px;
+}
+
+/* tab css */ 
+.tab-content-main{ max-width: 100%;} 
+.practise_form .buttons-field-row .button-bordered{ margin-left: 0px;}
+.guide-buttons-field{width:100%;}
+.navbar-header .navbar-brand { padding: 25px 15px;}    
+}
+
+/* media css */
+@media (max-width:410px){
+    .title_heading .dataTable-button-field {
+        float: right;
+        padding-bottom: 0;
+        padding-top: 15px;
+        text-align: right;
+        width: 100%;
+    }
+  .rating i {font-size: 19px;}
+  .available-butt{
+    float: right;
+    padding-top: 15px;
+    width: 100%;
+   }  
+}
+
+/* media css */
+@media (max-width:360px){
+  .doc-panal{ width: 100%;}
+}
